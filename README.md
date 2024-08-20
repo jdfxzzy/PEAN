@@ -4,7 +4,7 @@
 
 This repository offers the official Pytorch code for this paper. If you have any question, feel free to contact Zuoyan Zhao ([zuoyanzhao@seu.edu.cn](mailto:zuoyanzhao@seu.edu.cn)).
 
-[[Main Paper]](https://doi.org/10.1145/3664647.3680974)    [[Full Paper (arXiv)]](https://arxiv.org/abs/2311.17955)   [[Code]](https://github.com/jdfxzzy/PEAN)    [[OpenReview]](https://openreview.net/forum?id=IxSKhO7ed6)    [Slides]    [Video]     [Poster]
+[[Main Paper]](https://doi.org/10.1145/3664647.3680974)    [[Full Paper (arXiv)]](https://arxiv.org/abs/2311.17955)   [[Code]](https://github.com/jdfxzzy/PEAN)    [[OpenReview]](https://openreview.net/forum?id=IxSKhO7ed6)    [[Slides]](https://github.com/jdfxzzy/PEAN/releases/download/assets/slides_MM24_PEAN.pdf)    [[Video]](https://github.com/jdfxzzy/PEAN/releases/download/assets/video_MM24_PEAN.mp4)     [Poster]
 
 ## News
 
