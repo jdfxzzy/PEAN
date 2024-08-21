@@ -54,6 +54,8 @@ Other possible Python packages are also needed, please refer to *requirements.tx
 
   Of course, the pre-training process is not necessary. You can also directly train the full model without a pre-trained checkpoint. Before training, you should firstly modify the value of "checkpoint" in *./config/cfg_diff_prior.json* to your directory for saving the checkpoints of the TPEM.
 
+  The Transformer-based recognizer for the SFM loss can be downloaded at [https://github.com/FudanVI/FudanOCR/tree/main/text-gestalt](https://github.com/FudanVI/FudanOCR/tree/main/text-gestalt).
+
 - If you want to test the pre-trained model under the easy subset of TextZoom (assuming that this dataset is saved at */root/dataset/TextZoom/test/easy*), you could use scripts like this: 
 
   ```shell
