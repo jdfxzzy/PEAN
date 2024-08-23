@@ -82,10 +82,6 @@ class TextSR(base.TextBase):
                         pred = parseq_output.softmax(-1)
                         prob_str_lr.append(pred)
                     prob_str_lr = torch.cat(prob_str_lr, dim=0)
-
-                    text_sum = text_label.sum(1).squeeze(1)
-                    text_pos = (text_sum > 0).float().sum(1)
-                    text_len = text_pos.reshape(-1)
                     predicted_length = torch.ones(prob_str_lr.shape[0]) * prob_str_lr.shape[1]
 
                     data_diff = {"HR":prob_str_hr, "SR":prob_str_lr, "weighted_mask": weighted_mask, "predicted_length": predicted_length, "text_len": text_len}
@@ -96,7 +92,14 @@ class TextSR(base.TextBase):
                     label_vecs_final = prob_str_hr
                     loss_diff = 0
 
+                text_sum = text_label.sum(1).squeeze(1)
+                text_pos = (text_sum > 0).float().sum(1)
+                text_len = text_pos.reshape(-1)
+
                 images_sr, logits = model(images_lr, label_vecs_final)
+
+                if self.args.pre_training:
+                    predicted_length = torch.ones(logits.shape[1]) * logits.shape[0]
 
                 loss_im = 0
                 loss_im = loss_im + image_crit(images_sr, images_hr, labels) * 100
