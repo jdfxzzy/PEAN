@@ -8,6 +8,8 @@ This repository offers the official Pytorch code for this paper. If you have any
 
 ## News
 
+[2024.10.04] Poster of this paper is now available. This poster will be displayed at Poster Session 3 (Oct. 31st, 4:10pm ~ 6:10pm) at posterboard P222.
+
 [2024.08.20] 🔥🔥🔥 Code and weights of this model is now available on Github. [[Link]](https://github.com/jdfxzzy/PEAN)
 
 [2024.07.23] Full paper (including Supplementary Material) is now available on arXiv. [[Link]](https://arxiv.org/abs/2311.17955)
