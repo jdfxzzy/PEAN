@@ -8,7 +8,7 @@ This repository offers the official Pytorch code for this paper. If you have any
 
 ## News
 
-[2024.10.21] I am rated as one of the Outstanding Reviewers for ACMMM 2024. [[Link]](https://2024.acmmm.org/outstanding-ac-reviewer)
+[2024.10.21] I am rated as the Outstanding Reviewer for ACMMM 2024. [[Link]](https://2024.acmmm.org/outstanding-ac-reviewer)
 
 [2024.10.04] Poster of this paper is now available. This poster will be displayed at Poster Session 3 (Oct. 31st, 4:10pm ~ 6:10pm) at posterboard P222.
 
