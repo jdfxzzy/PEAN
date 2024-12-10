@@ -94,6 +94,7 @@ Other possible Python packages are also needed, please refer to *requirements.tx
   title={{PEAN}: A Diffusion-Based Prior-Enhanced Attention Network for Scene Text Image Super-Resolution},
   author={Zuoyan Zhao and Hui Xue and Pengfei Fang and Shipeng Zhu},
   booktitle={Proceedings of the ACM International Conference on Multimedia},
-  year={2024}
+  pages={9769--9778},
+  year={2024},
 }
 ```
